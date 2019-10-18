@@ -1,0 +1,343 @@
+/* fonts link start */
+@font-face {
+  font-family: bg-bold;
+  src: url(../fonts/BrandonGrotesque-Bold.ttf);
+}
+@font-face {
+  font-family: bg-light;
+  src: url(../fonts/BrandonGrotesque-Light.ttf);
+}
+@font-face {
+  font-family: bg-medium;
+  src: url(../fonts/BrandonGrotesque-Medium.ttf);
+}
+@font-face {
+  font-family: bg-regular;
+  src: url(../fonts/BrandonGrotesque-Regular.ttf);
+}
+@font-face {
+  font-family: cubano-regular;
+  src: url(../fonts/Cubano-Regular.otf);
+}
+/* fonts link end */
+body{
+	font-family: bg-regular;
+	color: #777777;
+}
+.wrapper{
+	padding: 100px 10%;
+}
+/* header start */
+header{
+	background-image: url('../images/banner.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 50px 0 120px;
+}
+	/* menu start */
+	.menu{}
+	.menu ul{}
+	.menu ul li{}
+	.menu ul li a{
+		font-family: bg-medium;
+		font-size: 18px;
+		color: #ffffff !important;
+		transition: .5s;
+		padding: 0 15px !important;
+	}
+	.menu ul li a:hover{
+		color: #a59d8f !important;
+	}
+	.menu ul li:last-child a{
+		padding-right: 0 !important;
+	}
+	/* menu end */
+	/* bannercontent start */
+	.banner{
+		padding-top: 160px;
+	}
+	.banner h1{
+		font-family: bg-light;
+		font-size: 32px;
+		color: #ffffff !important;
+	}
+	.banner h2{
+		font-family: bg-bold;
+		font-size: 66px;
+		color: #ffffff !important;
+		margin: 50px 0 80px;
+	}
+	.btn-outline-custom {
+		font-family: bg-bold;
+		font-size: 23px;
+	  padding: 16px 60px;
+	  color: #ffffff;
+	  border: solid 2px #ffffff;
+	}
+	.btn-outline-custom:hover {
+	  color: #ffffff !important;
+	}
+	.btn-outline-custom:focus {
+	  outline: none;
+	}
+	/* bannercontent end */
+/* header end
+/* Web start */
+.web{
+	padding: 70px 0 35px;
+}
+.web h1{
+	font-family: bg-light;
+	font-size: 60px;
+	color: #222222;
+}
+.web h1 span{
+	font-family: bg-bold;
+}
+.web p{
+	font-size: 18px;
+	padding-right: 12px;
+	padding-top: 30px;
+}
+.web img{
+	margin-top: 40px;
+}
+/* Web end */
+/* Branding start */
+.branding{
+	padding: 70px 0 35px;
+	background-color: #fafafa;
+}
+.branding h1{
+	font-family: bg-light;
+	font-size: 60px;
+	color: #222222;
+}
+.branding h1 span{
+	font-family: bg-bold;
+}
+.branding p{
+	font-size: 18px;
+	padding-top: 30px;
+}
+.branding img{
+	margin-top: 40px;
+}
+/* Branding end */
+/* features start */
+.feature{
+	padding: 80px 0 30px;
+}
+.feature i{
+	font-size: 40px;
+    color: #ffffff;
+    line-height: 80px;
+    transition: .5s;
+    background: #222222;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+.feature i:hover{
+    background-color: #a59d8f;
+}
+.feature h3{
+	font-family: bg-medium;
+	font-size: 22px;
+	color: #222222;
+}
+.feature p{
+	font-size: 18px;
+	padding-right: 24px;
+	padding-bottom: 40px;
+}
+/* features end */
+/* client start */
+.client{
+	background-color: #fafafa;
+	padding: 60px 0;
+}
+.client h2{
+	font-family: bg-light;
+	font-size: 60px;
+	color: #222222;
+}
+.client h2 span{
+	font-family: bg-bold;
+}
+.client p{
+	font-size: 22px;
+}
+.cwrap{
+	margin-bottom: 50px;
+}
+.client i{
+	font-size: 115px;
+    color: #ffffff;
+    line-height: 200px;
+    transition: .5s;
+    background: #222222;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+.client .client-item-one{
+	max-width: 630px;
+	background: #ffffff;
+    font-size: 26px;
+    padding: 30px 100px 30px 90px;
+    margin-top: 10px;
+    margin-left: 20px;
+    position: relative;
+}
+.client .client-item-one p{
+	font-size: 20px;
+}
+.client .client-item-one footer{
+	font-size: 20px;
+	color: #7690c5;
+	padding-top: 30px;
+}
+.client .client-item-one:before{
+	content: "";
+	position: absolute;
+    left: -26px;
+	top: 75px;
+	border-right: 26px solid #fff;
+	border-top: 13px solid transparent;
+	border-bottom: 13px solid transparent;
+}
+.client .client-item-two{
+	max-width: 630px;
+	background: #ffffff;
+    font-size: 26px;
+    padding: 30px 100px 30px 90px;
+    margin-top: 10px;
+    margin-left: 35px;
+    position: relative;
+}
+.client .client-item-two:after{
+	content: "";
+	position: absolute;
+	color: red;
+    right: -26px;
+	top: 75px;
+	border-left: 26px solid #fff;
+	border-top: 13px solid transparent;
+	border-bottom: 13px solid transparent;
+}
+.client .client-item-two footer{
+	font-size: 20px;
+	color: #7690c5;
+	padding-top: 30px;
+}
+/* client end */
+/* partner start */
+.partner{
+	padding: 60px 0;
+}
+.partner img{
+	margin: 0 10px;
+}
+/* partner end */
+/* team start */
+.team{
+	background-color: #111111;
+	padding: 60px 0;
+}
+.team .title h2{
+	font-family: bg-light;
+	font-size: 60px;
+	color: #ffffff;
+}
+.team .title h2 span{
+	font-family: bg-bold;
+}
+.team .title p{
+	font-size: 22px;
+}
+.member{
+	padding: 40px 0 50px;
+}
+.member .m-circle i{
+	width: 200px;
+	height: 200px;
+	font-size: 100px;
+    color: #ffffff;
+	line-height: 200px;
+	border: 5px solid #ffffff;
+}
+.member .m-name{
+	font-family: bg-medium;
+	font-size: 20px;
+	color: #ffffff;
+	margin: 10px 0 0;
+}
+.member .m-des{
+	font-family: bg-light;
+	font-size: 16px;
+	color: #ffffff;
+}
+.member-social-icon i{
+	color: #ffffff;
+	width: 40px;
+	height: 40px;
+	border: 2px solid #ffffff;
+	line-height: 40px;
+}
+.team-content{
+	font-size: 20px;
+	color: #ffffff;
+	padding: 0 9%;
+}
+/* team end */
+/* contact start */
+.contact{
+	background-color: #7690c5;
+	padding: 70px 0 40px;
+}
+.contact .say-hello{
+	margin-bottom: 50px;
+}
+.contact .say-hello h2{
+	font-family: bg-light;
+	font-size: 60px;
+	color: #ffffff;
+}
+.contact .say-hello h2 span{
+	font-family: bg-bold;
+}
+.contact .say-hello p{
+	font-size: 18px;
+	color: #ffffff;
+}
+.contact dl{
+	color: #ffffff;
+}
+.contact dl dt i{
+	font-size: 25px;
+	margin-bottom: 30px;
+}
+.contact dl dt dd{
+	font-size: 18px;
+}
+.contact form{
+	margin-top: 10px;
+}
+.custom-form-control{
+	font-size: 18px;
+	color: #bbbbbb;
+}
+.text-area-height{
+	height: 200px !important;
+}
+/* contact end */
+/* footer start */
+footer{
+	padding-top: 150px;
+	font-family: bg-medium;
+	font-size: 16px;
+	color: #ffffff;
+}
+/* footer end */

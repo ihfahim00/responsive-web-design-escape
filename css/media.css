@@ -1,0 +1,399 @@
+ /* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+/* header start */
+.menu ul li a{
+	text-align: right;
+	padding: 0 !important;
+}
+/* header end */
+/* banner content start */
+.banner{
+	padding-top: 80px;
+}
+.banner h1{
+	font-size: 12px;
+}
+.banner h2{
+	font-size: 18px;
+	margin: 20px 0 40px;
+}
+.btn-outline-custom {
+  padding: 4px 20px;
+}
+/* banner content end */
+/* web start */
+.web{
+	padding: 60px 0;
+}
+.web h1{
+	font-size: 36px;
+}
+.web p {
+    font-size: 16px;
+    padding-right: 0;
+    padding-top: 30px;
+}
+.web img{
+	margin-left: 70px;
+	margin-top: 0;
+	width: 40%;
+}
+/* web end */
+/* branding start */
+.branding{
+	padding: 60px 0;
+}
+.branding h1{
+	font-size: 36px;
+}
+.branding p {
+    font-size: 16px;
+    padding-right: 0;
+    padding-top: 30px;
+}
+.branding img{
+	margin-left: 70px;
+	margin-top: 0;
+	width: 40%;
+}
+/* branding end */
+/* features start */
+.feature {
+    padding: 60px 0 20px;
+    text-align: center;
+}
+.feature i{
+	font-size: 28px;
+    line-height: 55px;
+    width: 55px;
+    height: 55px;
+    margin-bottom: 30px;
+}
+.feature h3 {
+    font-size: 22px;
+}
+.feature p {
+    font-size: 15px;
+    padding-right: 0;
+}
+/* features end */
+/* client start */
+.client h2 {
+    font-size: 36px;
+}
+.client p {
+    font-size: 18px;
+}
+.client i {
+    font-size: 60px;
+    line-height: 100px;
+    width: 100px;
+    height: 100px;
+}
+.client .client-item-one:before {
+    left: -15px;
+    top: 80px;
+    border-right: 16px solid #fff;
+    border-top: 8px solid transparent;
+    border-bottom: 8px solid transparent;
+}
+.client .client-item-one {
+    padding: 30px 15px 20px 30px;
+    margin-top: 25px;
+    margin-left: 0;
+}
+.client .client-item-one p{
+    font-size: 16px;
+}
+.client .client-item-one footer{
+	font-size: 15px;
+	color: #7690c5;
+	padding-top: 30px;
+}
+.client .client-item-two:after {
+    left: -15px;
+    top: 80px;
+    border-right: 16px solid #fff;
+    border-top: 8px solid transparent;
+    border-bottom: 8px solid transparent;
+}
+.client .client-item-two {
+    padding: 30px 15px 20px 30px;
+    margin-top: 25px;
+    margin-left: 0;
+}
+.client .client-item-two p{
+    font-size: 16px;
+}
+.client .client-item-two footer{
+	font-size: 15px;
+	color: #7690c5;
+	padding-top: 30px;
+}
+/* client end */
+/* partner start */
+.partner {
+    padding: 40px 0;
+}
+.partner img{
+	margin: 0 5px;
+	width: 20%;
+}
+/* partner end */
+/* team start */
+.team .title h2 {
+    font-size: 36px;
+}
+.member-social-icon{
+	margin-bottom: 20px;
+}
+.team .title p {
+    font-size: 16px;
+}
+/* team end */
+/* contact start */
+.contact dl dt i{
+	margin-bottom: 0;
+}
+.contact dl dd{
+	font-size: 15px;
+	margin-bottom: 30px;
+}
+/* contact end */
+
+}
+
+ /* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+/* header start */
+.menu ul li a{
+	text-align: right;
+	padding: 0 !important;
+}
+/* header end */
+/* banner content start */
+.banner{
+	padding-top: 80px;
+}
+.banner h1{
+	font-size: 16px;
+}
+.banner h2{
+	font-size: 30px;
+	margin: 30px 0 50px;
+}
+.btn-outline-custom {
+  padding: 8px 30px;
+}
+/* banner content end */
+/* web start */
+.web h1{
+	font-size: 50px;
+}
+.web p {
+    font-size: 16px;
+    padding-right: 0;
+    padding-top: 30px;
+}
+.web img{
+	margin-left: 140px;
+	margin-top: 0;
+	width: 40%;
+}
+/* web end */
+/* branding start */
+.branding h1{
+	font-size: 50px;
+}
+.branding p {
+    font-size: 16px;
+    padding-right: 0;
+    padding-top: 30px;
+}
+.branding img{
+	margin-left: 140px;
+	margin-top: 0;
+	width: 40%;
+}
+/* branding end */
+/* features start */
+.feature i{
+	font-size: 28px;
+    line-height: 55px;
+    width: 55px;
+    height: 55px;
+}
+.feature h3 {
+    font-size: 22px;
+}
+.feature p {
+    font-size: 15px;
+    padding-right: 0;
+}
+/* features end */
+/* client start */
+.client i {
+    font-size: 60px;
+    line-height: 100px;
+    width: 100px;
+    height: 100px;
+    margin-top: 15px;
+}
+.client .client-item-one:before {
+    top: 50px;
+}
+.client .client-item-one {
+    padding: 30px 15px 20px 30px;
+    margin-top: 0;
+    margin-left: 0;
+}
+.client .client-item-one p{
+    font-size: 16px;
+}
+.client .client-item-one footer{
+	font-size: 15px;
+	color: #7690c5;
+}
+.client .client-item-two:after {
+    top: 50px;
+}
+.client .client-item-two {
+    padding: 30px 15px 20px 30px;
+    margin-top: 0;
+    margin-left: 0;
+}
+.client .client-item-two p{
+    font-size: 16px;
+}
+.client .client-item-two footer{
+	font-size: 15px;
+	color: #7690c5;
+}
+/* client end */
+/* partner start */
+.partner img{
+	margin: 0 10px;
+    width: 20%;
+}
+/* partner end */
+/* team start */
+.member{
+	padding: 40px 0 50px;
+}
+.member .m-circle i{
+	width: 150px;
+    height: 150px;
+    font-size: 80px;
+    line-height: 150px;
+}
+.member .m-des{
+	font-family: bg-light;
+	font-size: 16px;
+	color: #ffffff;
+}
+.member .m-name{
+	font-size: 16px;
+}
+.team-content{
+	padding: 0;
+	font-size: 16px;
+}
+/* team end */
+}
+
+ /* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+/* header start */
+.menu ul li a{
+	text-align: right;
+	padding: 0 !important;
+}
+/* header end */
+/* banner content start */
+.banner{
+	padding-top: 100px;
+}
+.banner h1{
+	font-size: 20px;
+}
+.banner h2{
+	font-size: 40px;
+}
+.btn-outline-custom {
+  padding: 12px 40px;
+}
+/* banner content end */
+/* web start */
+.web h1{
+	font-size: 50px;
+}
+.web p {
+    font-size: 16px;
+    padding-right: 0;
+    padding-top: 30px;
+}
+/* web end */
+/* Branding start */
+.branding h1{
+	font-size: 50px;
+}
+.branding p {
+    font-size: 16px;
+    padding-right: 0;
+    padding-top: 30px;
+}
+/* Branding end */
+/* features start */
+.feature p {
+    padding-right: 0;
+}
+/* features end */
+/* client start */
+.client i {
+    font-size: 80px;
+    line-height: 140px;
+    width: 140px;
+    height: 140px;
+}
+.client .client-item-one {
+    padding: 30px 15px 20px 30px;
+    margin-top: 0;
+    margin-left: 0;
+}
+.client .client-item-one footer{
+	font-size: 20px;
+	color: #7690c5;
+}
+.client .client-item-one:before {
+    top: 60px;
+}
+.client .client-item-two {
+    padding: 30px 15px 20px 30px;
+    margin-top: 0;
+    margin-left: 0;
+}
+.client .client-item-two footer{
+	font-size: 20px;
+	color: #7690c5;
+}
+.client .client-item-two:after {
+    top: 60px;
+}
+/* client end */
+/* partner start */
+.partner img{
+	margin: 0 10px;
+	width: 20%;
+}
+/* partner end */
+
+}
+
+ /* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+
+
+}
+
+ /* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { ... }
